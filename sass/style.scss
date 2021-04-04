@@ -1,0 +1,59 @@
+.navbar p.logo {
+  font-family: 'Open Sans', sans-serif;
+  color: gold;
+  font-size: 1.3em;
+}
+
+.navbar a {
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.navbar .col-md-3 {
+  text-align: right;
+}
+
+.navbar .col-md-1 {
+  text-align: center;
+  align-self: center;
+}
+
+.container-fluid.top {
+  background-image: url("/images/header-bg.jpg");
+  background-size: cover;
+}
+
+.intro div {
+    padding-top: 140px;
+    text-align: center;
+}
+
+.intro h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.intro h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.intro .button {
+  color: white;
+}
+
+.intro button {
+  background-color: gold;
+  color: white;
+  padding: 0;
+  font-size: 18px;
+  padding: 20px 30px;
+  font-weight: bold;
+}
+
+.top {
+  padding-bottom: 120px;
+}
