@@ -110,6 +110,7 @@
 
 .our-portfolio {
   background-color: #f8f9fa;
+  margin-bottom: 0;
 }
 
 .portfolio-intro {
@@ -119,7 +120,8 @@
 
 .portfolio-tiles {
   text-align: center;
-  margin: 0 160px 120px 160px;
+  margin: 0 160px;
+  padding-bottom: 60px;
 }
 
 .portfolio-title {
@@ -163,4 +165,34 @@
 
 .portfolio-text h4 {
   margin-top: 0;
+}
+
+.project-footer {
+
+}
+
+.project-footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.project-footer li {
+    font-size: 0;
+}
+
+.project-footer .social-media-icons i {
+    font-size: 40px;
+    padding: 0 10px;
+    color: black;
+    border-radius: 180px;
+}
+
+.project-footer-holder {
+  margin: 0 160px;
+}
+
+.copyright p {
+  color: darkgray;
+  line-height: 2.5;
 }
