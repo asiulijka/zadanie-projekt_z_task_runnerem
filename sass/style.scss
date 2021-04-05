@@ -1,11 +1,7 @@
-// font-family: 'Montserrat', sans-serif;
-// font-family: 'Open Sans', sans-serif;
-//
-// $font-header: 'Montserrat', sans-serif;
-//
-// h1, h3, h4 {
-//   font: $font-header;
-// }
+.sections {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 
 .navbar p.logo {
   font-family: 'Open Sans', sans-serif;
@@ -65,11 +61,11 @@
 
 .top {
   padding-bottom: 120px;
+  margin-top: 0px !important;
 }
 
 .our-services {
-      margin-top: 60px;
-      width: 75%;
+  width: 75%;
 }
 
 .services-intro {
@@ -79,7 +75,7 @@
 .services-tiles {
   text-align: center;
   margin-top: inherit;
-  margin-bottom: 120px;
+  // margin-bottom: 120px;
 }
 
 .services-title {
@@ -110,4 +106,61 @@
 
 .services-tiles h4 {
   font-size: 20px;
+}
+
+.our-portfolio {
+  background-color: #f8f9fa;
+}
+
+.portfolio-intro {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.portfolio-tiles {
+  text-align: center;
+  margin: 0 160px 120px 160px;
+}
+
+.portfolio-title {
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.portfolio-intro p {
+  font-style: italic;
+  margin-top: 8px;
+  color: darkgray;
+  font-size: 18px;
+}
+
+.portfolio-tiles p {
+  color: darkgray;
+  margin-top: 0;
+  font-style: italic;
+}
+
+.portfolio-tiles h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.portfolio-tiles img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-tiles .col-mfd-4 {
+      margin-bottom: 40px;
+}
+
+.portfolio-text {
+  background-color: white;
+  padding: 20px 0;
+}
+
+.portfolio-text h4 {
+  margin-top: 0;
 }
