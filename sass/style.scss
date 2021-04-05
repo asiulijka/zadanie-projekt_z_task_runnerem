@@ -1,3 +1,12 @@
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+//
+// $font-header: 'Montserrat', sans-serif;
+//
+// h1, h3, h4 {
+//   font: $font-header;
+// }
+
 .navbar p.logo {
   font-family: 'Open Sans', sans-serif;
   color: gold;
@@ -56,4 +65,49 @@
 
 .top {
   padding-bottom: 120px;
+}
+
+.our-services {
+      margin-top: 60px;
+      width: 75%;
+}
+
+.services-intro {
+  text-align: center;
+}
+
+.services-tiles {
+  text-align: center;
+  margin-top: inherit;
+  margin-bottom: 120px;
+}
+
+.services-title {
+  font-size: 40px;
+  margin-bottom: auto;
+}
+
+.services-intro p {
+  font-style: italic;
+  margin-top: 8px;
+  color: darkgray;
+  font-size: 18px;
+}
+
+.services-tiles i {
+  color: gold;
+  font-size: 30px;
+  border: 2px solid gold;
+  padding: 14px;
+  // height: 50px;
+  // width: 50px;
+  border-radius: 180px;
+}
+
+.services-tiles p {
+  color: darkgray;
+}
+
+.services-tiles h4 {
+  font-size: 20px;
 }
